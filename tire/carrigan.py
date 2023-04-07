@@ -1,6 +1,6 @@
 from tire import Tire
 
-class Octoprime(Tire):
+class Carrigan(Tire):
     def __init__(self,wear):
         self.wear=wear
     def tire_service(self):
