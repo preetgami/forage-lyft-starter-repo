@@ -1,7 +1,6 @@
-class Engine():
-    def __init__(self):
-        self.Enginetype=Enginetype
+from abc import ABC
 
+
+class Engine(ABC):
     def needs_service(self):
-        return self.engine_should_be_serviced.needs_service()
-
+        pass
